@@ -719,8 +719,8 @@ public class Main extends javax.swing.JFrame {
         submenu4.add(ShowFButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 110, 120, 50));
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setTitle("Página principal");
         setMinimumSize(new java.awt.Dimension(600, 275));
-        setPreferredSize(new java.awt.Dimension(600, 275));
         setResizable(false);
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
@@ -2077,22 +2077,22 @@ public class Main extends javax.swing.JFrame {
                     else{
                         ColaEnProceso.EnqueuePrio2(Elemento);
                     }
-                        iterador.getExp().setDependencia(DepCombo2.getSelectedItem().toString());
-                        iterador.getExp().setFechaingreso(Expediente.CalcularFecha());
-                        DNIField2.setText("");
-                        NameField2.setText("");
-                        LastNameField2.setText("");
-                        EmailField2.setText("");
-                        TopicField2.setText("");
-                        PhoneField2.setText("");
-                        PriorityField2.setText("");
-                        TypeField2.setText("");
-                        StateField2.setText("");
-                        DepCombo2.setSelectedItem("-");
-                        notificar("Trámite iniciado exitosamente", "Notificación");
-                        pendientes();
-                        ListaAvisos.add(Elemento);
-                        ListaAvisos.next();
+                    iterador.getExp().setDependencia(DepCombo2.getSelectedItem().toString());
+                    iterador.getExp().setFechaingreso(Expediente.CalcularFecha());
+                    DNIField2.setText("");
+                    NameField2.setText("");
+                    LastNameField2.setText("");
+                    EmailField2.setText("");
+                    TopicField2.setText("");
+                    PhoneField2.setText("");
+                    PriorityField2.setText("");
+                    TypeField2.setText("");
+                    StateField2.setText("");
+                    DepCombo2.setSelectedItem("-");
+                    notificar("Trámite iniciado exitosamente", "Notificación");
+                    pendientes();
+                    ListaAvisos.add(Elemento);
+                    ListaAvisos.next();
 
                 }
                 else{
