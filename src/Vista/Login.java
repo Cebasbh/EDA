@@ -58,6 +58,15 @@ public class Login extends javax.swing.JFrame {
                 }
             }
         });
+        addWindowFocusListener(new java.awt.event.WindowAdapter() {
+            @Override
+            public void windowGainedFocus(java.awt.event.WindowEvent evt) {
+                FondoPanel.requestFocusInWindow(); // Cambia FondoPanel por el nombre real del panel
+            }
+        });
+        javax.swing.SwingUtilities.invokeLater(() -> {
+            FondoPanel.requestFocusInWindow();
+        });
     }
 
     /**
