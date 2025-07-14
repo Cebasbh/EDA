@@ -71,7 +71,7 @@ public class TablaExpedientes extends javax.swing.JFrame {
         if ("ColaSP".equals(NombreEstructura)) {
             iterador = Main.ColaSinProcesar.head;
         } else if ("ColaEP".equals(NombreEstructura)) {
-            iterador = Main.ColaEnProceso.head;
+            iterador = Main.ColaEnProceso.head; 
         } else if ("ColaMaster".equals(NombreEstructura)) {
             iterador = Main.ColaMaster.head;
         } else if ("PilaF".equals(NombreEstructura)) {

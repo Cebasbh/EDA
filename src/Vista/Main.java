@@ -719,7 +719,6 @@ public class Main extends javax.swing.JFrame {
         submenu4.add(ShowFButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 110, 120, 50));
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
-        setTitle("Página principal");
         setMinimumSize(new java.awt.Dimension(600, 275));
         setResizable(false);
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());

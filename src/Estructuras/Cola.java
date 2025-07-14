@@ -72,20 +72,4 @@ public Expediente Dequeue() {
         value = temp.getExp();
         return value;
     }
-public Nodo IterarHastaFinal(){
-    Nodo temp = head;
-        while (temp.siguiente != null)
-        {
-            temp = temp.siguiente;
-        }
-    return temp;
-}
-public void Mostrar(){
-    Nodo temp = head;
-    while (temp != null){
-        System.out.print(temp.getExp().getDocumento().getNombres() + " -> ");
-        temp = temp.siguiente;
-    }
-    System.out.println("null");
-}
 }

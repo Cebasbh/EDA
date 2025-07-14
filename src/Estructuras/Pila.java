@@ -35,12 +35,4 @@ public Expediente Pop() {
         value = temp.getExp();
         return value;
     }
-public void Mostrar(){
-    Nodo temp = head;
-    while (temp != null){
-        System.out.print(temp.getExp().getDocumento().getNombres() + " -> ");
-        temp = temp.siguiente;
-    }
-    System.out.println("null");
-}
 }
